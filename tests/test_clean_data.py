@@ -1,7 +1,11 @@
 import pandas as pd
 
 
-from src.clean_data import calculate_financials, remove_exact_duplicates
+from src.clean_data import (
+    calculate_financials,
+    load_data,
+    remove_exact_duplicates,
+)
 
 def test_calculate_financials():
 
@@ -36,3 +40,16 @@ def test_remove_exact_duplicates():
     assert len(cleaned_data) == 2
 
     assert cleaned_data["Order ID"].tolist() == ["ORD-001", "ORD-002"]
+def test_load_data(tmp_path):
+    expected_data = pd.DataFrame(
+        {
+            "Order ID": ["ORD-001", "ORD-002"],
+            "Quantity": [2, 3],
+        }
+    )
+    csv_path = tmp_path / "sample.csv"
+
+    expected_data.to_csv(csv_path, index=False)
+    actual_data = load_data(csv_path)
+
+    pd.testing.assert_frame_equal(actual_data, expected_data)
