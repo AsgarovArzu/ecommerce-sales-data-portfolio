@@ -20,17 +20,11 @@ def remove_exact_duplicates(data):
 def calculate_financials(data):
     result = data.copy()
 
-    result["Revenue"] = (
-        result["Quantity"] * result["Unit Price"]
-    ).round(2)
+    result["Revenue"] = (result["Quantity"] * result["Unit Price"]).round(2)
 
-    result["Total Cost"] = (
-        result["Quantity"] * result["Unit Cost"]
-    ).round(2)
+    result["Total Cost"] = (result["Quantity"] * result["Unit Cost"]).round(2)
 
-    result["Profit"] = (
-        result["Revenue"] - result["Total Cost"]
-    ).round(2)
+    result["Profit"] = (result["Revenue"] - result["Total Cost"]).round(2)
 
     return result
 
@@ -47,50 +41,28 @@ def main():
     )
     invalid_dates = clean_df["Order Date"].isna().sum()
     clean_df, exact_duplicate_count = remove_exact_duplicates(clean_df)
-    remaining_duplicate_ids = clean_df.duplicated(
-        subset=["Order ID"]
-    ).sum()
+    remaining_duplicate_ids = clean_df.duplicated(subset=["Order ID"]).sum()
 
-    clean_df["Region"] = (
-        clean_df["Region"]
-        .str.strip()
-        .str.title()
-    )
+    clean_df["Region"] = clean_df["Region"].str.strip().str.title()
     clean_df["Category"] = clean_df["Category"].str.strip()
 
     email_needs_cleaning = (
         clean_df["Email"].notna()
-        & (
-            clean_df["Email"]
-            != clean_df["Email"].str.strip().str.lower()
-        )
+        & (clean_df["Email"] != clean_df["Email"].str.strip().str.lower())
     ).sum()
 
-    clean_df["Email"] = (
-        clean_df["Email"]
-        .str.strip()
-        .str.lower()
-    )
+    clean_df["Email"] = clean_df["Email"].str.strip().str.lower()
 
     remaining_email_issues = (
         clean_df["Email"].notna()
-        & (
-            clean_df["Email"]
-            != clean_df["Email"].str.strip().str.lower()
-        )
+        & (clean_df["Email"] != clean_df["Email"].str.strip().str.lower())
     ).sum()
 
-    rejected_df = clean_df.loc[
-        clean_df["Quantity"].isna()
-    ].copy()
+    rejected_df = clean_df.loc[clean_df["Quantity"].isna()].copy()
     rejected_df["Rejection Reason"] = "Missing Quantity"
-    clean_df = clean_df.loc[
-        clean_df["Quantity"].notna()
-    ].copy()
+    clean_df = clean_df.loc[clean_df["Quantity"].notna()].copy()
 
-    non_integer_quantities = (
-        clean_df["Quantity"] % 1 != 0
-    ).sum()
+    non_integer_quantities = (clean_df["Quantity"] % 1 != 0).sum()
     clean_df["Quantity"] = clean_df["Quantity"].astype("int64")
 
     customer_name_needs_cleaning = (
@@ -101,11 +73,7 @@ def main():
         )
     ).sum()
 
-    clean_df["Customer Name"] = (
-        clean_df["Customer Name"]
-        .str.strip()
-        .str.title()
-    )
+    clean_df["Customer Name"] = clean_df["Customer Name"].str.strip().str.title()
 
     remaining_customer_name_issues = (
         clean_df["Customer Name"].notna()
@@ -118,9 +86,7 @@ def main():
     invalid_quantities = (clean_df["Quantity"] <= 0).sum()
     invalid_unit_prices = (clean_df["Unit Price"] <= 0).sum()
     invalid_unit_costs = (clean_df["Unit Cost"] < 0).sum()
-    cost_above_price = (
-        clean_df["Unit Cost"] > clean_df["Unit Price"]
-    ).sum()
+    cost_above_price = (clean_df["Unit Cost"] > clean_df["Unit Price"]).sum()
 
     assert invalid_dates == 0
     assert remaining_duplicate_ids == 0
@@ -135,11 +101,7 @@ def main():
     clean_df = calculate_financials(clean_df)
 
     input_row_count = len(df)
-    accounted_row_count = (
-        len(clean_df)
-        + len(rejected_df)
-        + exact_duplicate_count
-    )
+    accounted_row_count = len(clean_df) + len(rejected_df) + exact_duplicate_count
     rows_reconciled = input_row_count == accounted_row_count
     assert rows_reconciled
 
