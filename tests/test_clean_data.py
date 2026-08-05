@@ -5,6 +5,7 @@ from src.clean_data import (
     calculate_financials,
     load_data,
     remove_exact_duplicates,
+    reject_missing_quantities,
 )
 
 
@@ -50,3 +51,18 @@ def test_load_data(tmp_path):
     actual_data = load_data(csv_path)
 
     pd.testing.assert_frame_equal(actual_data, expected_data)
+
+
+def test_reject_missing_quantities():
+    input_data = pd.DataFrame(
+        {
+            "Order ID": ["ORD-001", "ORD-002"],
+            "Quantity": [2, None],
+        }
+    )
+
+    accepted_data, rejected_data = reject_missing_quantities(input_data)
+
+    assert accepted_data["Order ID"].tolist() == ["ORD-001"]
+    assert rejected_data["Order ID"].tolist() == ["ORD-002"]
+    assert rejected_data["Rejection Reason"].tolist() == ["Missing Quantity"]

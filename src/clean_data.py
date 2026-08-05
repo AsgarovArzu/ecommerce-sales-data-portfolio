@@ -17,6 +17,14 @@ def remove_exact_duplicates(data):
     return cleaned_data, duplicate_count
 
 
+def reject_missing_quantities(data):
+    result = data.copy()
+    rejected_data = result.loc[result["Quantity"].isna()].copy()
+    rejected_data["Rejection Reason"] = "Missing Quantity"
+    accepted_data = result.loc[result["Quantity"].notna()].copy()
+    return accepted_data, rejected_data
+
+
 def calculate_financials(data):
     result = data.copy()
 
@@ -58,9 +66,7 @@ def main():
         & (clean_df["Email"] != clean_df["Email"].str.strip().str.lower())
     ).sum()
 
-    rejected_df = clean_df.loc[clean_df["Quantity"].isna()].copy()
-    rejected_df["Rejection Reason"] = "Missing Quantity"
-    clean_df = clean_df.loc[clean_df["Quantity"].notna()].copy()
+    clean_df, rejected_df = reject_missing_quantities(clean_df)
 
     non_integer_quantities = (clean_df["Quantity"] % 1 != 0).sum()
     clean_df["Quantity"] = clean_df["Quantity"].astype("int64")
