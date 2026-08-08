@@ -25,6 +25,19 @@ def reject_missing_quantities(data):
     return accepted_data, rejected_data
 
 
+def normalize_emails(data):
+    result = data.copy()
+
+    changed_count = (
+        result["Email"].notna()
+        & (result["Email"] != result["Email"].str.strip().str.lower())
+    ).sum()
+
+    result["Email"] = result["Email"].str.strip().str.lower()
+
+    return result, changed_count
+
+
 def calculate_financials(data):
     result = data.copy()
 
@@ -54,12 +67,7 @@ def main():
     clean_df["Region"] = clean_df["Region"].str.strip().str.title()
     clean_df["Category"] = clean_df["Category"].str.strip()
 
-    email_needs_cleaning = (
-        clean_df["Email"].notna()
-        & (clean_df["Email"] != clean_df["Email"].str.strip().str.lower())
-    ).sum()
-
-    clean_df["Email"] = clean_df["Email"].str.strip().str.lower()
+    clean_df, email_needs_cleaning = normalize_emails(clean_df)
 
     remaining_email_issues = (
         clean_df["Email"].notna()

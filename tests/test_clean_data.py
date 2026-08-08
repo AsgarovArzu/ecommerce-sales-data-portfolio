@@ -4,8 +4,9 @@ import pandas as pd
 from src.clean_data import (
     calculate_financials,
     load_data,
-    remove_exact_duplicates,
+    normalize_emails,
     reject_missing_quantities,
+    remove_exact_duplicates,
 )
 
 
@@ -66,3 +67,24 @@ def test_reject_missing_quantities():
     assert accepted_data["Order ID"].tolist() == ["ORD-001"]
     assert rejected_data["Order ID"].tolist() == ["ORD-002"]
     assert rejected_data["Rejection Reason"].tolist() == ["Missing Quantity"]
+
+
+def test_normalize_emails():
+    input_data = pd.DataFrame(
+        {
+            "Email": [
+                "  ARZU@EXAMPLE.COM  ",
+                "user@example.com",
+                None,
+            ]
+        }
+    )
+
+    result, changed_count = normalize_emails(input_data)
+
+    assert result["Email"].tolist() == [
+        "arzu@example.com",
+        "user@example.com",
+        None,
+    ]
+    assert changed_count == 1
