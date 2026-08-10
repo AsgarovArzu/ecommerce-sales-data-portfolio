@@ -5,6 +5,7 @@ from src.clean_data import (
     calculate_financials,
     load_data,
     normalize_customer_names,
+    normalize_region_and_category,
     normalize_emails,
     reject_missing_quantities,
     remove_exact_duplicates,

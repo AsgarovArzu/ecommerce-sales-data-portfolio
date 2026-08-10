@@ -51,6 +51,15 @@ def normalize_customer_names(data):
     return result, changed_count
 
 
+def normalize_region_and_category(data):
+    result = data.copy()
+
+    result["Region"] = result["Region"].str.strip().str.title()
+    result["Category"] = result["Category"].str.strip()
+
+    return result
+
+
 def calculate_financials(data):
     result = data.copy()
 
@@ -77,9 +86,7 @@ def main():
     clean_df, exact_duplicate_count = remove_exact_duplicates(clean_df)
     remaining_duplicate_ids = clean_df.duplicated(subset=["Order ID"]).sum()
 
-    clean_df["Region"] = clean_df["Region"].str.strip().str.title()
-    clean_df["Category"] = clean_df["Category"].str.strip()
-
+    clean_df = normalize_region_and_category(clean_df)
     clean_df, email_needs_cleaning = normalize_emails(clean_df)
 
     remaining_email_issues = (
