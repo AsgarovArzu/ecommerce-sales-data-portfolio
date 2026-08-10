@@ -1,0 +1,6 @@
+Order ID,Order Date,Customer Name,Email,Region,Category,Product,Sales Channel,Payment Method,Quantity,Unit Price,Unit Cost,Rejection Reason
+ORD-0041,2026-04-04,Liam Taylor,liam.taylor7@example.com,North,Home & Kitchen,Storage Box,Mobile App,PayPal,,78.51,43.96,Missing Quantity
+ORD-0082,2026-03-27,Ava Wilson,ava.wilson14@example.com,North,Electronics,Wireless Mouse,Website,PayPal,,120.31,58.11,Missing Quantity
+ORD-0123,2026-05-13,Sofia Brown,sofia.brown4@example.com,West,Office Supplies,Ergonomic Stand,Marketplace,Card,,86.36,56.0,Missing Quantity
+ORD-0164,2026-05-15,Lucas Davis,lucas.davis11@example.com,South,Electronics,Mechanical Keyboard,Marketplace,PayPal,,30.66,19.15,Missing Quantity
+ORD-0205,2026-03-07,Lucas Smith,lucas.smith1@example.com,East,Home & Kitchen,Desk Lamp,Marketplace,PayPal,,74.2,39.19,Missing Quantity

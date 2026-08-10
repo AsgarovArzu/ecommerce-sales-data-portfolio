@@ -10,6 +10,14 @@ def load_data(csv_path):
     return data
 
 
+def convert_order_dates(data):
+    result = data.copy()
+    result["Order Date"] = pd.to_datetime(result["Order Date"], errors="coerce")
+    invalid_date_count = result["Order Date"].isna().sum()
+
+    return result, invalid_date_count
+
+
 def remove_exact_duplicates(data):
     duplicate_count = data.duplicated().sum()
     cleaned_data = data.drop_duplicates().copy()
@@ -60,6 +68,16 @@ def normalize_region_and_category(data):
     return result
 
 
+def convert_quantities_to_integer(data):
+    result = data.copy()
+    non_integer_count = (result["Quantity"] % 1 != 0).sum()
+
+    if non_integer_count == 0:
+        result["Quantity"] = result["Quantity"].astype("int64")
+
+    return result, non_integer_count
+
+
 def calculate_financials(data):
     result = data.copy()
 
@@ -77,12 +95,7 @@ def main():
     df = load_data(file_path)
     missing_values = df.isna().sum()
 
-    clean_df = df.copy()
-    clean_df["Order Date"] = pd.to_datetime(
-        clean_df["Order Date"],
-        errors="coerce",
-    )
-    invalid_dates = clean_df["Order Date"].isna().sum()
+    clean_df, invalid_dates = convert_order_dates(df)
     clean_df, exact_duplicate_count = remove_exact_duplicates(clean_df)
     remaining_duplicate_ids = clean_df.duplicated(subset=["Order ID"]).sum()
 
@@ -96,8 +109,7 @@ def main():
 
     clean_df, rejected_df = reject_missing_quantities(clean_df)
 
-    non_integer_quantities = (clean_df["Quantity"] % 1 != 0).sum()
-    clean_df["Quantity"] = clean_df["Quantity"].astype("int64")
+    clean_df, non_integer_quantities = convert_quantities_to_integer(clean_df)
 
     clean_df, customer_name_needs_cleaning = normalize_customer_names(clean_df)
 
@@ -148,6 +160,7 @@ def main():
 
     clean_output_path = output_dir / "clean_ecommerce_sales.csv"
     rejected_output_path = output_dir / "rejected_records.csv"
+    quality_report_path = output_dir / "data_quality_report.csv"
 
     clean_df.to_csv(
         clean_output_path,
@@ -161,12 +174,19 @@ def main():
         date_format="%Y-%m-%d",
     )
 
+    pd.DataFrame(
+        quality_report.items(),
+        columns=["Metric", "Value"],
+    ).to_csv(quality_report_path, index=False)
+
     saved_clean_df = pd.read_csv(clean_output_path)
     saved_rejected_df = pd.read_csv(rejected_output_path)
+    saved_quality_report = pd.read_csv(quality_report_path)
 
     assert len(saved_clean_df) == len(clean_df)
     assert len(saved_rejected_df) == len(rejected_df)
     assert saved_clean_df["Order ID"].duplicated().sum() == 0
+    assert saved_quality_report["Metric"].tolist() == list(quality_report)
 
     print("\nData quality summary:")
     for metric, value in quality_report.items():

@@ -1,0 +1,10 @@
+Metric,Value
+Input rows,244
+Exact duplicates removed,4
+Missing emails found,6
+Missing quantities rejected,5
+Emails normalized,12
+Customer names normalized,7
+Accepted rows,235
+Accounted rows,244
+Rows reconciled,True

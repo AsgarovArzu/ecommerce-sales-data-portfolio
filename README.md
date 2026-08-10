@@ -4,7 +4,9 @@
 
 This project processes a synthetic e-commerce sales dataset containing duplicate records, missing values, and inconsistent text formatting.
 
-The Python pipeline cleans and validates the data, separates rejected records, and calculates revenue, total cost, and profit for analysis.
+The Python pipeline cleans and validates the data, separates rejected records,
+calculates revenue, total cost, and profit, and produces a data-quality report.
+It is designed as a reproducible example of a client-ready CSV cleaning workflow.
 
 ## Data Quality Issues
 
@@ -26,6 +28,7 @@ The Python pipeline cleans and validates the data, separates rejected records, a
 8. Calculated Revenue, Total Cost, and Profit.
 9. Reconciled all input, accepted, rejected, and duplicate rows.
 10. Exported and validated the clean and rejected CSV files.
+11. Generated a data-quality report with row reconciliation metrics.
 
 ## Project Structure
 
@@ -35,12 +38,15 @@ ecommerce-sales-data-portfolio/
 │   └── raw_ecommerce_sales.csv
 ├── outputs/
 │   ├── clean_ecommerce_sales.csv
-│   └── rejected_records.csv
+│   ├── rejected_records.csv
+│   └── data_quality_report.csv
 ├── src/
 │   └── clean_data.py
 ├── tests/
+│   └── test_clean_data.py
 ├── .gitignore
 ├── README.md
+├── requirements-dev.txt
 └── requirements.txt
 ```
 
@@ -59,6 +65,12 @@ Install the required dependencies:
 python -m pip install -r requirements.txt
 ```
 
+For development, install the testing and code-quality tools:
+
+```bash
+python -m pip install -r requirements-dev.txt
+```
+
 Run the data-cleaning pipeline:
 
 ```bash
@@ -69,12 +81,37 @@ The generated files will be available in the `outputs/` directory:
 
 - `clean_ecommerce_sales.csv`
 - `rejected_records.csv`
+- `data_quality_report.csv`
+
+## Testing and Code Quality
+
+The project includes unit tests for loading data, duplicate removal, rejected
+records, text normalization, date conversion, quantity conversion, and financial
+calculations.
+
+```bash
+python -m pytest
+ruff check src tests
+ruff format --check src tests
+```
+
+## Output Summary
+
+| Metric | Result |
+|---|---:|
+| Input rows | 244 |
+| Exact duplicates removed | 4 |
+| Missing quantities rejected | 5 |
+| Accepted rows | 235 |
+| Rows reconciled | True |
 
 ## Technologies
 
 - Python 3.9
 - pandas 2.3.3
 - Git and GitHub
+- pytest
+- Ruff
 - CSV data processing
 
 ## Key Results

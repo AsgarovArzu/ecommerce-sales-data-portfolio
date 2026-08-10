@@ -1,0 +1,236 @@
+Order ID,Order Date,Customer Name,Email,Region,Category,Product,Sales Channel,Payment Method,Quantity,Unit Price,Unit Cost,Revenue,Total Cost,Profit
+ORD-0001,2026-04-07,Sofia Clark,sofia.clark1@example.com,West,Home & Kitchen,Storage Box,Website,PayPal,6,83.94,62.95,503.64,377.7,125.94
+ORD-0002,2026-06-15,Liam Taylor,liam.taylor2@example.com,North,Home & Kitchen,Storage Box,Marketplace,Card,2,102.37,67.27,204.74,134.54,70.2
+ORD-0003,2026-05-25,Mia Smith,mia.smith3@example.com,East,Home & Kitchen,Storage Box,Marketplace,Bank Transfer,6,27.19,15.04,163.14,90.24,72.9
+ORD-0004,2026-06-05,Sofia Brown,sofia.brown4@example.com,East,Electronics,Mechanical Keyboard,Website,Card,4,80.21,54.79,320.84,219.16,101.68
+ORD-0005,2026-04-25,Sofia Wilson,sofia.wilson5@example.com,South,Electronics,Mechanical Keyboard,Mobile App,Card,3,38.43,20.71,115.29,62.13,53.16
+ORD-0006,2026-04-16,Lucas Davis,lucas.davis6@example.com,North,Sports & Outdoors,Resistance Bands,Marketplace,Bank Transfer,1,125.8,77.8,125.8,77.8,48.0
+ORD-0007,2026-01-22,Liam Wilson,liam.wilson7@example.com,South,Sports & Outdoors,Water Bottle,Marketplace,PayPal,5,76.65,47.62,383.25,238.1,145.15
+ORD-0008,2026-02-10,Leo Taylor,leo.taylor8@example.com,West,Electronics,Mechanical Keyboard,Marketplace,PayPal,5,16.94,11.03,84.7,55.15,29.55
+ORD-0009,2026-05-24,Leo Wilson,leo.wilson9@example.com,North,Electronics,USB-C Hub,Mobile App,PayPal,3,82.06,48.8,246.18,146.4,99.78
+ORD-0010,2026-02-16,Emma Clark,emma.clark10@example.com,South,Office Supplies,Notebook Set,Marketplace,Bank Transfer,6,140.5,105.47,843.0,632.82,210.18
+ORD-0011,2026-04-01,Mia Wilson,mia.wilson11@example.com,North,Home & Kitchen,Storage Box,Website,Bank Transfer,2,60.95,42.29,121.9,84.58,37.32
+ORD-0012,2026-01-03,Liam Wilson,liam.wilson12@example.com,West,Electronics,USB-C Hub,Mobile App,Bank Transfer,2,29.17,20.77,58.34,41.54,16.8
+ORD-0013,2026-04-23,Lucas Smith,lucas.smith13@example.com,South,Home & Kitchen,Coffee Grinder,Marketplace,PayPal,5,41.28,28.89,206.4,144.45,61.95
+ORD-0014,2026-04-01,Lucas Wilson,lucas.wilson14@example.com,West,Home & Kitchen,Desk Lamp,Marketplace,PayPal,5,80.76,56.99,403.8,284.95,118.85
+ORD-0015,2026-01-22,Noah Smith,noah.smith15@example.com,South,Home & Kitchen,Coffee Grinder,Mobile App,Bank Transfer,1,36.78,24.87,36.78,24.87,11.91
+ORD-0016,2026-04-27,Ava Davis,ava.davis16@example.com,East,Home & Kitchen,Storage Box,Mobile App,Bank Transfer,4,112.19,73.64,448.76,294.56,154.2
+ORD-0017,2026-05-16,Noah Wilson,noah.wilson0@example.com,West,Sports & Outdoors,Yoga Mat,Website,Card,6,19.77,10.45,118.62,62.7,55.92
+ORD-0018,2026-05-20,Lucas Davis,lucas.davis1@example.com,North,Office Supplies,Ergonomic Stand,Mobile App,Card,5,130.07,89.52,650.35,447.6,202.75
+ORD-0019,2026-01-02,Mia Davis,mia.davis2@example.com,North,Home & Kitchen,Storage Box,Marketplace,Bank Transfer,4,40.51,25.81,162.04,103.24,58.8
+ORD-0020,2026-01-18,Emma Davis,emma.davis3@example.com,South,Home & Kitchen,Desk Lamp,Mobile App,Card,2,143.92,97.64,287.84,195.28,92.56
+ORD-0021,2026-02-26,Noah Brown,noah.brown4@example.com,North,Home & Kitchen,Desk Lamp,Website,Bank Transfer,4,79.29,59.48,317.16,237.92,79.24
+ORD-0022,2026-01-12,Mia Taylor,mia.taylor5@example.com,South,Home & Kitchen,Coffee Grinder,Website,PayPal,6,125.99,75.32,755.94,451.92,304.02
+ORD-0023,2026-06-26,Ava Taylor,ava.taylor6@example.com,South,Electronics,USB-C Hub,Marketplace,PayPal,4,45.03,23.01,180.12,92.04,88.08
+ORD-0024,2026-05-18,Noah Taylor,noah.taylor7@example.com,South,Sports & Outdoors,Yoga Mat,Website,Bank Transfer,6,117.76,61.1,706.56,366.6,339.96
+ORD-0025,2026-06-10,Mia Taylor,mia.taylor8@example.com,East,Office Supplies,Ergonomic Stand,Marketplace,Card,2,58.58,28.68,117.16,57.36,59.8
+ORD-0026,2026-05-17,Mia Smith,mia.smith9@example.com,West,Sports & Outdoors,Resistance Bands,Marketplace,Card,1,68.99,39.45,68.99,39.45,29.54
+ORD-0027,2026-02-16,Mia Wilson,mia.wilson10@example.com,East,Office Supplies,Notebook Set,Website,Card,4,54.61,34.99,218.44,139.96,78.48
+ORD-0028,2026-06-01,Leo Brown,leo.brown11@example.com,West,Sports & Outdoors,Resistance Bands,Mobile App,Bank Transfer,5,99.47,56.43,497.35,282.15,215.2
+ORD-0029,2026-03-16,Sofia Smith,sofia.smith12@example.com,South,Sports & Outdoors,Water Bottle,Mobile App,PayPal,1,82.18,55.27,82.18,55.27,26.91
+ORD-0030,2026-01-01,Lucas Davis,lucas.davis13@example.com,West,Electronics,USB-C Hub,Website,Bank Transfer,5,79.35,54.56,396.75,272.8,123.95
+ORD-0031,2026-02-19,Leo Brown,leo.brown14@example.com,North,Office Supplies,Marker Pack,Marketplace,Card,5,61.83,39.55,309.15,197.75,111.4
+ORD-0032,2026-05-26,Noah Taylor,noah.taylor15@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,PayPal,1,46.08,33.38,46.08,33.38,12.7
+ORD-0033,2026-05-08,Noah Brown,noah.brown16@example.com,South,Electronics,USB-C Hub,Website,Bank Transfer,5,103.39,66.82,516.95,334.1,182.85
+ORD-0034,2026-04-13,Noah Smith,noah.smith0@example.com,East,Electronics,Wireless Mouse,Website,Bank Transfer,3,78.04,51.91,234.12,155.73,78.39
+ORD-0035,2026-06-12,Mia Davis,mia.davis1@example.com,North,Home & Kitchen,Desk Lamp,Mobile App,Card,4,142.38,70.42,569.52,281.68,287.84
+ORD-0036,2026-03-16,Liam Smith,liam.smith2@example.com,North,Home & Kitchen,Desk Lamp,Mobile App,Card,1,38.72,25.76,38.72,25.76,12.96
+ORD-0037,2026-02-24,Lucas Taylor,,South,Sports & Outdoors,Yoga Mat,Website,Bank Transfer,3,137.05,93.53,411.15,280.59,130.56
+ORD-0038,2026-01-16,Noah Taylor,noah.taylor4@example.com,South,Home & Kitchen,Desk Lamp,Mobile App,Card,1,19.59,13.51,19.59,13.51,6.08
+ORD-0039,2026-01-24,Emma Clark,emma.clark5@example.com,East,Electronics,Wireless Mouse,Marketplace,PayPal,6,136.01,74.5,816.06,447.0,369.06
+ORD-0040,2026-04-15,Leo Clark,leo.clark6@example.com,West,Sports & Outdoors,Water Bottle,Website,Card,6,101.52,67.09,609.12,402.54,206.58
+ORD-0042,2026-01-07,Liam Smith,liam.smith8@example.com,South,Sports & Outdoors,Yoga Mat,Mobile App,PayPal,1,124.94,69.23,124.94,69.23,55.71
+ORD-0043,2026-03-24,Sofia Taylor,sofia.taylor9@example.com,East,Sports & Outdoors,Yoga Mat,Marketplace,Bank Transfer,6,17.35,11.1,104.1,66.6,37.5
+ORD-0044,2026-06-22,Sofia Smith,sofia.smith10@example.com,East,Home & Kitchen,Coffee Grinder,Marketplace,PayPal,2,20.48,14.77,40.96,29.54,11.42
+ORD-0045,2026-03-24,Liam Davis,liam.davis11@example.com,North,Home & Kitchen,Storage Box,Mobile App,Bank Transfer,1,74.42,49.63,74.42,49.63,24.79
+ORD-0046,2026-02-17,Liam Clark,liam.clark12@example.com,West,Home & Kitchen,Desk Lamp,Marketplace,PayPal,5,148.37,71.38,741.85,356.9,384.95
+ORD-0047,2026-04-18,Liam Brown,liam.brown13@example.com,North,Sports & Outdoors,Water Bottle,Mobile App,Card,6,128.82,84.07,772.92,504.42,268.5
+ORD-0048,2026-04-06,Mia Brown,mia.brown14@example.com,South,Office Supplies,Marker Pack,Website,Bank Transfer,2,128.34,74.15,256.68,148.3,108.38
+ORD-0049,2026-06-19,Noah Wilson,noah.wilson15@example.com,East,Sports & Outdoors,Resistance Bands,Mobile App,PayPal,2,65.66,38.32,131.32,76.64,54.68
+ORD-0050,2026-01-13,Sofia Brown,sofia.brown16@example.com,South,Home & Kitchen,Coffee Grinder,Marketplace,Card,4,24.3,13.27,97.2,53.08,44.12
+ORD-0051,2026-02-16,Mia Clark,mia.clark0@example.com,North,Office Supplies,Marker Pack,Mobile App,Card,6,33.47,16.41,200.82,98.46,102.36
+ORD-0052,2026-04-09,Ava Davis,ava.davis1@example.com,West,Electronics,Mechanical Keyboard,Website,PayPal,5,19.47,9.84,97.35,49.2,48.15
+ORD-0053,2026-01-16,Liam Davis,liam.davis2@example.com,South,Office Supplies,Marker Pack,Website,Bank Transfer,2,20.21,15.05,40.42,30.1,10.32
+ORD-0054,2026-06-06,Sofia Davis,sofia.davis3@example.com,North,Sports & Outdoors,Water Bottle,Website,PayPal,4,100.25,66.17,401.0,264.68,136.32
+ORD-0055,2026-06-20,Sofia Davis,sofia.davis4@example.com,West,Office Supplies,Notebook Set,Mobile App,PayPal,3,127.9,79.77,383.7,239.31,144.39
+ORD-0056,2026-02-26,Sofia Brown,sofia.brown5@example.com,South,Electronics,USB-C Hub,Website,Card,1,24.71,18.45,24.71,18.45,6.26
+ORD-0057,2026-06-17,Liam Wilson,liam.wilson6@example.com,South,Office Supplies,Marker Pack,Mobile App,Card,5,27.98,20.76,139.9,103.8,36.1
+ORD-0058,2026-05-09,Sofia Davis,sofia.davis7@example.com,North,Electronics,Mechanical Keyboard,Mobile App,Card,1,127.64,70.31,127.64,70.31,57.33
+ORD-0059,2026-04-18,Liam Davis,liam.davis8@example.com,North,Electronics,Wireless Mouse,Mobile App,PayPal,3,81.1,54.43,243.3,163.29,80.01
+ORD-0060,2026-02-26,Emma Brown,emma.brown9@example.com,West,Electronics,USB-C Hub,Website,PayPal,3,64.29,41.84,192.87,125.52,67.35
+ORD-0061,2026-04-22,Liam Taylor,liam.taylor10@example.com,North,Office Supplies,Ergonomic Stand,Website,PayPal,3,119.74,84.62,359.22,253.86,105.36
+ORD-0062,2026-03-05,Ava Clark,ava.clark11@example.com,West,Office Supplies,Notebook Set,Mobile App,Bank Transfer,4,46.71,27.42,186.84,109.68,77.16
+ORD-0063,2026-01-03,Ava Clark,ava.clark12@example.com,West,Office Supplies,Ergonomic Stand,Mobile App,PayPal,5,33.32,16.74,166.6,83.7,82.9
+ORD-0064,2026-02-24,Mia Wilson,mia.wilson13@example.com,East,Office Supplies,Ergonomic Stand,Mobile App,PayPal,1,18.69,11.6,18.69,11.6,7.09
+ORD-0065,2026-01-13,Emma Clark,emma.clark14@example.com,East,Home & Kitchen,Desk Lamp,Mobile App,PayPal,4,85.98,62.94,343.92,251.76,92.16
+ORD-0066,2026-02-17,Ava Taylor,ava.taylor15@example.com,North,Home & Kitchen,Coffee Grinder,Website,Card,6,81.38,52.04,488.28,312.24,176.04
+ORD-0067,2026-01-15,Leo Smith,leo.smith16@example.com,West,Electronics,USB-C Hub,Mobile App,PayPal,2,138.98,69.43,277.96,138.86,139.1
+ORD-0068,2026-04-17,Mia Wilson,mia.wilson0@example.com,South,Home & Kitchen,Coffee Grinder,Mobile App,PayPal,2,99.49,68.77,198.98,137.54,61.44
+ORD-0069,2026-01-08,Leo Davis,leo.davis1@example.com,North,Home & Kitchen,Coffee Grinder,Mobile App,PayPal,1,123.75,71.23,123.75,71.23,52.52
+ORD-0070,2026-03-22,Lucas Davis,lucas.davis2@example.com,South,Electronics,USB-C Hub,Website,PayPal,2,144.13,89.97,288.26,179.94,108.32
+ORD-0071,2026-03-03,Lucas Smith,lucas.smith3@example.com,West,Sports & Outdoors,Resistance Bands,Mobile App,Bank Transfer,5,109.52,76.83,547.6,384.15,163.45
+ORD-0072,2026-02-05,Noah Wilson,noah.wilson4@example.com,North,Home & Kitchen,Desk Lamp,Mobile App,PayPal,2,116.27,59.89,232.54,119.78,112.76
+ORD-0073,2026-02-18,Sofia Wilson,sofia.wilson5@example.com,North,Office Supplies,Marker Pack,Mobile App,Card,4,103.6,49.95,414.4,199.8,214.6
+ORD-0074,2026-02-22,Sofia Brown,,East,Sports & Outdoors,Resistance Bands,Marketplace,Bank Transfer,2,68.86,33.41,137.72,66.82,70.9
+ORD-0075,2026-04-01,Emma Wilson,emma.wilson7@example.com,East,Electronics,Wireless Mouse,Marketplace,PayPal,5,136.28,68.77,681.4,343.85,337.55
+ORD-0076,2026-04-09,Lucas Clark,lucas.clark8@example.com,East,Office Supplies,Marker Pack,Mobile App,PayPal,4,123.49,91.76,493.96,367.04,126.92
+ORD-0077,2026-06-18,Lucas Wilson,lucas.wilson9@example.com,North,Office Supplies,Notebook Set,Marketplace,Card,2,78.39,47.49,156.78,94.98,61.8
+ORD-0078,2026-06-06,Ava Wilson,ava.wilson10@example.com,North,Home & Kitchen,Coffee Grinder,Website,PayPal,3,119.79,88.15,359.37,264.45,94.92
+ORD-0079,2026-04-15,Emma Davis,emma.davis11@example.com,East,Home & Kitchen,Desk Lamp,Mobile App,Card,3,19.38,11.75,58.14,35.25,22.89
+ORD-0080,2026-06-07,Liam Davis,liam.davis12@example.com,West,Home & Kitchen,Coffee Grinder,Marketplace,Card,2,101.34,49.39,202.68,98.78,103.9
+ORD-0081,2026-06-14,Lucas Wilson,lucas.wilson13@example.com,West,Office Supplies,Notebook Set,Mobile App,Card,5,102.19,72.85,510.95,364.25,146.7
+ORD-0083,2026-06-10,Leo Davis,leo.davis15@example.com,South,Office Supplies,Ergonomic Stand,Website,Bank Transfer,1,90.58,67.69,90.58,67.69,22.89
+ORD-0084,2026-04-09,Lucas Wilson,lucas.wilson16@example.com,West,Office Supplies,Marker Pack,Marketplace,Card,2,50.63,33.63,101.26,67.26,34.0
+ORD-0085,2026-06-11,Leo Brown,leo.brown0@example.com,South,Sports & Outdoors,Resistance Bands,Website,Bank Transfer,6,49.19,35.61,295.14,213.66,81.48
+ORD-0086,2026-06-02,Lucas Wilson,lucas.wilson1@example.com,North,Home & Kitchen,Storage Box,Mobile App,PayPal,3,99.88,48.75,299.64,146.25,153.39
+ORD-0087,2026-05-16,Sofia Brown,sofia.brown2@example.com,West,Electronics,USB-C Hub,Mobile App,Bank Transfer,1,66.18,35.32,66.18,35.32,30.86
+ORD-0088,2026-06-18,Noah Taylor,noah.taylor3@example.com,West,Office Supplies,Notebook Set,Website,PayPal,4,87.69,54.03,350.76,216.12,134.64
+ORD-0089,2026-01-06,Lucas Brown,lucas.brown4@example.com,South,Sports & Outdoors,Water Bottle,Mobile App,PayPal,2,122.51,85.33,245.02,170.66,74.36
+ORD-0090,2026-05-26,Liam Taylor,liam.taylor5@example.com,East,Electronics,USB-C Hub,Website,PayPal,2,112.88,71.13,225.76,142.26,83.5
+ORD-0091,2026-03-06,Lucas Smith,lucas.smith6@example.com,South,Electronics,USB-C Hub,Mobile App,PayPal,6,107.85,58.27,647.1,349.62,297.48
+ORD-0092,2026-05-26,Noah Brown,noah.brown7@example.com,South,Electronics,USB-C Hub,Mobile App,Card,6,125.17,76.94,751.02,461.64,289.38
+ORD-0093,2026-05-27,Sofia Davis,sofia.davis8@example.com,North,Sports & Outdoors,Yoga Mat,Marketplace,PayPal,3,121.11,63.95,363.33,191.85,171.48
+ORD-0094,2026-04-18,Ava Davis,ava.davis9@example.com,South,Electronics,Wireless Mouse,Mobile App,PayPal,2,57.5,41.89,115.0,83.78,31.22
+ORD-0095,2026-05-23,Mia Wilson,mia.wilson10@example.com,West,Office Supplies,Notebook Set,Mobile App,PayPal,6,89.58,54.85,537.48,329.1,208.38
+ORD-0096,2026-02-01,Emma Brown,emma.brown11@example.com,North,Sports & Outdoors,Resistance Bands,Website,Card,2,105.01,75.87,210.02,151.74,58.28
+ORD-0097,2026-06-24,Liam Smith,liam.smith12@example.com,West,Electronics,USB-C Hub,Marketplace,PayPal,3,86.69,43.12,260.07,129.36,130.71
+ORD-0098,2026-02-02,Noah Smith,noah.smith13@example.com,North,Home & Kitchen,Storage Box,Website,Bank Transfer,6,46.62,24.48,279.72,146.88,132.84
+ORD-0099,2026-01-15,Ava Taylor,ava.taylor14@example.com,South,Home & Kitchen,Desk Lamp,Mobile App,Card,5,106.47,73.3,532.35,366.5,165.85
+ORD-0100,2026-06-19,Liam Wilson,liam.wilson15@example.com,North,Home & Kitchen,Storage Box,Website,Bank Transfer,5,93.24,46.27,466.2,231.35,234.85
+ORD-0101,2026-06-18,Lucas Brown,lucas.brown16@example.com,East,Office Supplies,Ergonomic Stand,Mobile App,PayPal,2,122.52,84.34,245.04,168.68,76.36
+ORD-0102,2026-03-25,Sofia Brown,sofia.brown0@example.com,West,Office Supplies,Marker Pack,Mobile App,Bank Transfer,2,88.66,44.96,177.32,89.92,87.4
+ORD-0103,2026-03-07,Emma Davis,emma.davis1@example.com,East,Home & Kitchen,Desk Lamp,Mobile App,Card,5,17.67,8.89,88.35,44.45,43.9
+ORD-0104,2026-03-05,Leo Clark,leo.clark2@example.com,East,Home & Kitchen,Coffee Grinder,Website,Card,4,98.91,64.2,395.64,256.8,138.84
+ORD-0105,2026-02-14,Leo Brown,leo.brown3@example.com,South,Home & Kitchen,Coffee Grinder,Mobile App,PayPal,1,74.32,51.4,74.32,51.4,22.92
+ORD-0106,2026-02-09,Noah Clark,noah.clark4@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,Card,4,44.48,21.75,177.92,87.0,90.92
+ORD-0107,2026-03-21,Liam Wilson,liam.wilson5@example.com,East,Office Supplies,Marker Pack,Marketplace,Bank Transfer,5,93.23,64.16,466.15,320.8,145.35
+ORD-0108,2026-05-04,Lucas Brown,lucas.brown6@example.com,West,Home & Kitchen,Coffee Grinder,Website,PayPal,4,30.92,15.85,123.68,63.4,60.28
+ORD-0109,2026-05-17,Sofia Clark,sofia.clark7@example.com,West,Electronics,Wireless Mouse,Website,PayPal,1,39.16,27.69,39.16,27.69,11.47
+ORD-0110,2026-02-14,Liam Brown,liam.brown8@example.com,South,Sports & Outdoors,Water Bottle,Marketplace,Bank Transfer,1,136.25,97.49,136.25,97.49,38.76
+ORD-0111,2026-05-05,Leo Taylor,,East,Home & Kitchen,Desk Lamp,Website,Bank Transfer,1,142.96,74.02,142.96,74.02,68.94
+ORD-0112,2026-03-01,Noah Smith,noah.smith10@example.com,South,Electronics,USB-C Hub,Marketplace,Card,2,68.91,37.24,137.82,74.48,63.34
+ORD-0113,2026-02-27,Leo Wilson,leo.wilson11@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,Card,4,46.34,31.84,185.36,127.36,58.0
+ORD-0114,2026-03-12,Noah Smith,noah.smith12@example.com,South,Home & Kitchen,Desk Lamp,Mobile App,Bank Transfer,2,76.33,55.27,152.66,110.54,42.12
+ORD-0115,2026-05-19,Sofia Davis,sofia.davis13@example.com,West,Office Supplies,Ergonomic Stand,Mobile App,Bank Transfer,1,25.33,17.43,25.33,17.43,7.9
+ORD-0116,2026-02-02,Leo Davis,leo.davis14@example.com,East,Electronics,Wireless Mouse,Website,PayPal,1,68.16,41.54,68.16,41.54,26.62
+ORD-0117,2026-06-27,Lucas Wilson,lucas.wilson15@example.com,West,Office Supplies,Ergonomic Stand,Mobile App,Card,4,14.23,8.51,56.92,34.04,22.88
+ORD-0118,2026-05-17,Lucas Clark,lucas.clark16@example.com,South,Home & Kitchen,Coffee Grinder,Website,Bank Transfer,6,128.11,93.16,768.66,558.96,209.7
+ORD-0119,2026-02-08,Ava Davis,ava.davis0@example.com,North,Electronics,Mechanical Keyboard,Website,Bank Transfer,1,18.33,9.19,18.33,9.19,9.14
+ORD-0120,2026-01-19,Sofia Brown,sofia.brown1@example.com,South,Electronics,Wireless Mouse,Marketplace,Card,5,68.42,38.53,342.1,192.65,149.45
+ORD-0121,2026-06-03,Mia Smith,mia.smith2@example.com,East,Sports & Outdoors,Water Bottle,Marketplace,Card,2,121.15,82.81,242.3,165.62,76.68
+ORD-0122,2026-02-19,Liam Wilson,liam.wilson3@example.com,West,Electronics,Mechanical Keyboard,Marketplace,PayPal,3,96.94,73.18,290.82,219.54,71.28
+ORD-0124,2026-06-11,Liam Brown,liam.brown5@example.com,East,Electronics,USB-C Hub,Marketplace,Card,6,112.84,85.08,677.04,510.48,166.56
+ORD-0125,2026-05-18,Noah Davis,noah.davis6@example.com,East,Sports & Outdoors,Resistance Bands,Website,Bank Transfer,2,72.29,43.87,144.58,87.74,56.84
+ORD-0126,2026-02-04,Sofia Wilson,sofia.wilson7@example.com,North,Home & Kitchen,Storage Box,Website,Bank Transfer,3,114.96,73.29,344.88,219.87,125.01
+ORD-0127,2026-04-22,Ava Wilson,ava.wilson8@example.com,North,Home & Kitchen,Storage Box,Marketplace,PayPal,6,113.09,75.8,678.54,454.8,223.74
+ORD-0128,2026-01-11,Ava Brown,ava.brown9@example.com,East,Sports & Outdoors,Resistance Bands,Marketplace,PayPal,3,66.77,41.77,200.31,125.31,75.0
+ORD-0129,2026-06-13,Ava Clark,ava.clark10@example.com,South,Electronics,Mechanical Keyboard,Website,PayPal,1,22.52,12.45,22.52,12.45,10.07
+ORD-0130,2026-06-01,Leo Taylor,leo.taylor11@example.com,North,Electronics,Mechanical Keyboard,Website,PayPal,4,45.98,25.19,183.92,100.76,83.16
+ORD-0131,2026-06-19,Lucas Brown,lucas.brown12@example.com,South,Home & Kitchen,Coffee Grinder,Mobile App,Card,5,134.34,83.48,671.7,417.4,254.3
+ORD-0132,2026-05-05,Emma Davis,emma.davis13@example.com,North,Home & Kitchen,Desk Lamp,Website,Bank Transfer,6,126.72,83.08,760.32,498.48,261.84
+ORD-0133,2026-06-15,Noah Davis,noah.davis14@example.com,South,Sports & Outdoors,Resistance Bands,Mobile App,Bank Transfer,6,119.33,77.73,715.98,466.38,249.6
+ORD-0134,2026-06-16,Sofia Brown,sofia.brown15@example.com,North,Electronics,Mechanical Keyboard,Marketplace,Bank Transfer,5,132.41,93.19,662.05,465.95,196.1
+ORD-0135,2026-05-05,Emma Brown,emma.brown16@example.com,East,Sports & Outdoors,Yoga Mat,Website,Bank Transfer,6,18.95,9.33,113.7,55.98,57.72
+ORD-0136,2026-05-13,Lucas Wilson,lucas.wilson0@example.com,East,Office Supplies,Notebook Set,Website,PayPal,6,87.18,57.37,523.08,344.22,178.86
+ORD-0137,2026-02-20,Sofia Brown,sofia.brown1@example.com,North,Sports & Outdoors,Water Bottle,Marketplace,PayPal,4,45.64,30.98,182.56,123.92,58.64
+ORD-0138,2026-02-01,Liam Taylor,liam.taylor2@example.com,South,Sports & Outdoors,Water Bottle,Website,PayPal,1,124.04,63.39,124.04,63.39,60.65
+ORD-0139,2026-03-10,Liam Wilson,liam.wilson3@example.com,North,Home & Kitchen,Coffee Grinder,Website,Card,4,115.68,86.88,462.72,347.52,115.2
+ORD-0140,2026-05-16,Sofia Smith,sofia.smith4@example.com,West,Office Supplies,Notebook Set,Website,Card,4,125.51,76.0,502.04,304.0,198.04
+ORD-0141,2026-02-11,Noah Brown,noah.brown5@example.com,East,Sports & Outdoors,Resistance Bands,Website,PayPal,3,80.73,48.52,242.19,145.56,96.63
+ORD-0142,2026-01-03,Emma Brown,emma.brown6@example.com,North,Home & Kitchen,Coffee Grinder,Website,PayPal,4,63.01,31.83,252.04,127.32,124.72
+ORD-0143,2026-01-09,Sofia Brown,sofia.brown7@example.com,East,Electronics,Mechanical Keyboard,Marketplace,Bank Transfer,5,106.03,68.62,530.15,343.1,187.05
+ORD-0144,2026-01-12,Leo Wilson,leo.wilson8@example.com,West,Sports & Outdoors,Yoga Mat,Marketplace,PayPal,2,68.8,42.14,137.6,84.28,53.32
+ORD-0145,2026-05-06,Mia Wilson,mia.wilson9@example.com,East,Electronics,USB-C Hub,Mobile App,Card,3,91.1,50.69,273.3,152.07,121.23
+ORD-0146,2026-06-25,Ava Clark,ava.clark10@example.com,East,Sports & Outdoors,Yoga Mat,Website,Bank Transfer,1,102.6,67.16,102.6,67.16,35.44
+ORD-0147,2026-05-21,Lucas Clark,lucas.clark11@example.com,East,Sports & Outdoors,Resistance Bands,Mobile App,Card,2,65.19,46.5,130.38,93.0,37.38
+ORD-0148,2026-03-26,Ava Davis,,West,Electronics,Wireless Mouse,Website,Card,4,40.78,25.97,163.12,103.88,59.24
+ORD-0149,2026-02-22,Ava Smith,ava.smith13@example.com,West,Home & Kitchen,Storage Box,Website,Card,3,39.31,21.91,117.93,65.73,52.2
+ORD-0150,2026-04-14,Ava Brown,ava.brown14@example.com,East,Home & Kitchen,Desk Lamp,Marketplace,Bank Transfer,5,50.19,31.25,250.95,156.25,94.7
+ORD-0151,2026-03-17,Lucas Brown,lucas.brown15@example.com,East,Office Supplies,Ergonomic Stand,Website,Card,3,142.85,72.47,428.55,217.41,211.14
+ORD-0152,2026-04-26,Leo Davis,leo.davis16@example.com,West,Electronics,Mechanical Keyboard,Marketplace,Card,1,142.66,105.98,142.66,105.98,36.68
+ORD-0153,2026-06-10,Ava Clark,ava.clark0@example.com,West,Sports & Outdoors,Yoga Mat,Website,Card,2,78.9,59.44,157.8,118.88,38.92
+ORD-0154,2026-03-17,Mia Clark,mia.clark1@example.com,North,Electronics,Mechanical Keyboard,Mobile App,PayPal,1,14.06,8.3,14.06,8.3,5.76
+ORD-0155,2026-02-20,Ava Brown,ava.brown2@example.com,North,Office Supplies,Notebook Set,Website,Bank Transfer,1,106.11,58.99,106.11,58.99,47.12
+ORD-0156,2026-01-20,Liam Taylor,liam.taylor3@example.com,East,Home & Kitchen,Coffee Grinder,Marketplace,PayPal,4,134.03,70.26,536.12,281.04,255.08
+ORD-0157,2026-01-10,Mia Davis,mia.davis4@example.com,South,Office Supplies,Marker Pack,Marketplace,Bank Transfer,4,97.25,55.77,389.0,223.08,165.92
+ORD-0158,2026-02-07,Liam Brown,liam.brown5@example.com,North,Sports & Outdoors,Resistance Bands,Mobile App,PayPal,5,84.31,57.26,421.55,286.3,135.25
+ORD-0159,2026-06-18,Sofia Clark,sofia.clark6@example.com,West,Office Supplies,Notebook Set,Website,PayPal,4,124.34,81.6,497.36,326.4,170.96
+ORD-0160,2026-05-22,Emma Davis,emma.davis7@example.com,East,Sports & Outdoors,Resistance Bands,Marketplace,Card,4,79.71,38.68,318.84,154.72,164.12
+ORD-0161,2026-06-09,Mia Brown,mia.brown8@example.com,West,Home & Kitchen,Storage Box,Marketplace,PayPal,6,86.45,57.81,518.7,346.86,171.84
+ORD-0162,2026-02-16,Emma Davis,emma.davis9@example.com,South,Sports & Outdoors,Resistance Bands,Website,Bank Transfer,5,13.72,8.95,68.6,44.75,23.85
+ORD-0163,2026-02-09,Leo Taylor,leo.taylor10@example.com,West,Home & Kitchen,Desk Lamp,Marketplace,PayPal,1,36.07,25.2,36.07,25.2,10.87
+ORD-0165,2026-02-13,Lucas Wilson,lucas.wilson12@example.com,East,Sports & Outdoors,Water Bottle,Marketplace,Bank Transfer,2,100.17,65.58,200.34,131.16,69.18
+ORD-0166,2026-03-11,Mia Smith,mia.smith13@example.com,West,Office Supplies,Ergonomic Stand,Website,Card,3,140.62,103.99,421.86,311.97,109.89
+ORD-0167,2026-03-16,Emma Clark,emma.clark14@example.com,South,Home & Kitchen,Desk Lamp,Marketplace,Bank Transfer,5,133.84,86.95,669.2,434.75,234.45
+ORD-0168,2026-04-25,Noah Smith,noah.smith15@example.com,North,Electronics,Wireless Mouse,Website,PayPal,5,118.82,82.85,594.1,414.25,179.85
+ORD-0169,2026-05-08,Mia Wilson,mia.wilson16@example.com,West,Office Supplies,Notebook Set,Marketplace,PayPal,1,72.56,35.83,72.56,35.83,36.73
+ORD-0170,2026-04-27,Lucas Wilson,lucas.wilson0@example.com,West,Office Supplies,Notebook Set,Website,Card,6,103.78,51.53,622.68,309.18,313.5
+ORD-0171,2026-04-02,Mia Clark,mia.clark1@example.com,East,Sports & Outdoors,Water Bottle,Marketplace,Bank Transfer,1,17.1,9.12,17.1,9.12,7.98
+ORD-0172,2026-01-04,Noah Davis,noah.davis2@example.com,East,Sports & Outdoors,Yoga Mat,Marketplace,Bank Transfer,6,99.99,75.68,599.94,454.08,145.86
+ORD-0173,2026-03-11,Liam Smith,liam.smith3@example.com,West,Office Supplies,Notebook Set,Mobile App,Bank Transfer,4,51.08,38.72,204.32,154.88,49.44
+ORD-0174,2026-01-19,Emma Smith,emma.smith4@example.com,North,Electronics,Mechanical Keyboard,Marketplace,Card,3,41.27,30.96,123.81,92.88,30.93
+ORD-0175,2026-02-23,Sofia Taylor,sofia.taylor5@example.com,South,Home & Kitchen,Storage Box,Marketplace,Bank Transfer,1,67.08,46.62,67.08,46.62,20.46
+ORD-0176,2026-06-10,Lucas Smith,lucas.smith6@example.com,West,Sports & Outdoors,Water Bottle,Mobile App,Bank Transfer,1,138.73,80.27,138.73,80.27,58.46
+ORD-0177,2026-05-06,Liam Davis,liam.davis7@example.com,North,Home & Kitchen,Storage Box,Mobile App,Card,4,15.44,10.06,61.76,40.24,21.52
+ORD-0178,2026-04-17,Leo Taylor,leo.taylor8@example.com,East,Office Supplies,Ergonomic Stand,Mobile App,Bank Transfer,2,133.36,66.67,266.72,133.34,133.38
+ORD-0179,2026-06-26,Mia Smith,mia.smith9@example.com,West,Electronics,Wireless Mouse,Mobile App,Bank Transfer,5,23.66,15.69,118.3,78.45,39.85
+ORD-0180,2026-03-10,Sofia Clark,sofia.clark10@example.com,East,Office Supplies,Notebook Set,Marketplace,PayPal,2,75.22,36.21,150.44,72.42,78.02
+ORD-0181,2026-06-12,Liam Davis,liam.davis11@example.com,North,Sports & Outdoors,Resistance Bands,Website,Card,1,110.41,56.55,110.41,56.55,53.86
+ORD-0182,2026-06-12,Sofia Wilson,sofia.wilson12@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,Card,3,145.34,78.47,436.02,235.41,200.61
+ORD-0183,2026-05-08,Sofia Clark,sofia.clark13@example.com,West,Office Supplies,Marker Pack,Mobile App,PayPal,3,46.23,24.57,138.69,73.71,64.98
+ORD-0184,2026-03-09,Leo Brown,leo.brown14@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,Bank Transfer,4,72.12,54.13,288.48,216.52,71.96
+ORD-0185,2026-06-27,Sofia Brown,,North,Electronics,Wireless Mouse,Marketplace,Bank Transfer,4,50.73,34.3,202.92,137.2,65.72
+ORD-0186,2026-03-25,Liam Taylor,liam.taylor16@example.com,West,Home & Kitchen,Storage Box,Mobile App,PayPal,6,74.47,47.83,446.82,286.98,159.84
+ORD-0187,2026-06-07,Ava Wilson,ava.wilson0@example.com,North,Office Supplies,Ergonomic Stand,Marketplace,Bank Transfer,1,118.59,78.64,118.59,78.64,39.95
+ORD-0188,2026-06-09,Ava Smith,ava.smith1@example.com,North,Home & Kitchen,Storage Box,Marketplace,PayPal,2,19.48,9.75,38.96,19.5,19.46
+ORD-0189,2026-05-17,Liam Taylor,liam.taylor2@example.com,North,Sports & Outdoors,Resistance Bands,Website,PayPal,5,43.98,27.19,219.9,135.95,83.95
+ORD-0190,2026-03-19,Ava Davis,ava.davis3@example.com,North,Electronics,Mechanical Keyboard,Marketplace,Bank Transfer,4,106.8,70.38,427.2,281.52,145.68
+ORD-0191,2026-02-06,Liam Brown,liam.brown4@example.com,West,Sports & Outdoors,Water Bottle,Website,PayPal,3,143.82,79.21,431.46,237.63,193.83
+ORD-0192,2026-06-05,Emma Clark,emma.clark5@example.com,North,Electronics,Wireless Mouse,Mobile App,Bank Transfer,3,43.57,32.1,130.71,96.3,34.41
+ORD-0193,2026-02-12,Emma Wilson,emma.wilson6@example.com,South,Office Supplies,Ergonomic Stand,Mobile App,Card,3,57.46,35.35,172.38,106.05,66.33
+ORD-0194,2026-05-26,Noah Smith,noah.smith7@example.com,South,Home & Kitchen,Desk Lamp,Marketplace,Card,6,22.05,11.13,132.3,66.78,65.52
+ORD-0195,2026-06-17,Noah Taylor,noah.taylor8@example.com,North,Office Supplies,Ergonomic Stand,Website,Card,3,39.14,18.82,117.42,56.46,60.96
+ORD-0196,2026-03-04,Mia Clark,mia.clark9@example.com,West,Office Supplies,Notebook Set,Website,Bank Transfer,1,49.79,34.79,49.79,34.79,15.0
+ORD-0197,2026-06-25,Noah Brown,noah.brown10@example.com,West,Home & Kitchen,Desk Lamp,Website,Bank Transfer,1,51.03,31.06,51.03,31.06,19.97
+ORD-0198,2026-05-02,Mia Brown,mia.brown11@example.com,North,Electronics,USB-C Hub,Marketplace,PayPal,6,116.52,81.52,699.12,489.12,210.0
+ORD-0199,2026-01-07,Emma Taylor,emma.taylor12@example.com,South,Electronics,Wireless Mouse,Website,Bank Transfer,2,106.82,72.17,213.64,144.34,69.3
+ORD-0200,2026-04-12,Emma Brown,emma.brown13@example.com,West,Home & Kitchen,Coffee Grinder,Website,PayPal,3,93.55,60.08,280.65,180.24,100.41
+ORD-0201,2026-05-07,Lucas Wilson,lucas.wilson14@example.com,West,Electronics,Mechanical Keyboard,Website,PayPal,4,72.05,53.82,288.2,215.28,72.92
+ORD-0202,2026-03-11,Liam Davis,liam.davis15@example.com,West,Office Supplies,Ergonomic Stand,Website,Bank Transfer,2,55.92,37.51,111.84,75.02,36.82
+ORD-0203,2026-06-06,Mia Clark,mia.clark16@example.com,North,Office Supplies,Notebook Set,Mobile App,PayPal,6,25.0,17.89,150.0,107.34,42.66
+ORD-0204,2026-02-03,Lucas Smith,lucas.smith0@example.com,South,Office Supplies,Ergonomic Stand,Website,PayPal,1,61.1,42.9,61.1,42.9,18.2
+ORD-0206,2026-06-24,Leo Clark,leo.clark2@example.com,North,Home & Kitchen,Storage Box,Marketplace,PayPal,2,74.29,51.71,148.58,103.42,45.16
+ORD-0207,2026-03-12,Noah Taylor,noah.taylor3@example.com,North,Office Supplies,Notebook Set,Mobile App,Card,6,46.6,29.88,279.6,179.28,100.32
+ORD-0208,2026-01-18,Sofia Taylor,sofia.taylor4@example.com,South,Sports & Outdoors,Yoga Mat,Mobile App,Card,5,40.45,24.04,202.25,120.2,82.05
+ORD-0209,2026-01-26,Emma Brown,emma.brown5@example.com,North,Home & Kitchen,Storage Box,Website,PayPal,5,12.36,9.17,61.8,45.85,15.95
+ORD-0210,2026-02-18,Leo Clark,leo.clark6@example.com,East,Electronics,USB-C Hub,Marketplace,PayPal,5,102.83,49.91,514.15,249.55,264.6
+ORD-0211,2026-06-13,Mia Wilson,mia.wilson7@example.com,South,Home & Kitchen,Desk Lamp,Mobile App,Bank Transfer,1,128.21,84.31,128.21,84.31,43.9
+ORD-0212,2026-06-20,Sofia Clark,sofia.clark8@example.com,North,Home & Kitchen,Storage Box,Website,PayPal,3,140.22,100.77,420.66,302.31,118.35
+ORD-0213,2026-01-10,Sofia Clark,sofia.clark9@example.com,North,Sports & Outdoors,Water Bottle,Website,PayPal,6,75.53,49.32,453.18,295.92,157.26
+ORD-0214,2026-02-01,Ava Brown,ava.brown10@example.com,North,Home & Kitchen,Storage Box,Marketplace,Card,4,140.8,79.44,563.2,317.76,245.44
+ORD-0215,2026-04-05,Liam Wilson,liam.wilson11@example.com,West,Office Supplies,Notebook Set,Marketplace,Bank Transfer,2,24.94,13.83,49.88,27.66,22.22
+ORD-0216,2026-03-19,Mia Davis,mia.davis12@example.com,North,Office Supplies,Ergonomic Stand,Website,Card,2,32.55,24.14,65.1,48.28,16.82
+ORD-0217,2026-04-01,Ava Taylor,ava.taylor13@example.com,East,Office Supplies,Marker Pack,Marketplace,Card,6,91.63,46.04,549.78,276.24,273.54
+ORD-0218,2026-03-20,Emma Smith,emma.smith14@example.com,West,Home & Kitchen,Desk Lamp,Mobile App,Bank Transfer,3,74.41,42.82,223.23,128.46,94.77
+ORD-0219,2026-04-08,Ava Taylor,ava.taylor15@example.com,West,Office Supplies,Notebook Set,Website,Card,1,75.27,39.91,75.27,39.91,35.36
+ORD-0220,2026-06-15,Noah Clark,noah.clark16@example.com,South,Electronics,USB-C Hub,Website,PayPal,3,13.93,9.73,41.79,29.19,12.6
+ORD-0221,2026-05-25,Noah Brown,noah.brown0@example.com,West,Office Supplies,Marker Pack,Website,Card,3,36.47,23.76,109.41,71.28,38.13
+ORD-0222,2026-03-02,Ava Smith,,South,Sports & Outdoors,Resistance Bands,Mobile App,Card,5,47.65,31.55,238.25,157.75,80.5
+ORD-0223,2026-05-08,Sofia Taylor,sofia.taylor2@example.com,South,Sports & Outdoors,Resistance Bands,Mobile App,Bank Transfer,4,54.0,33.16,216.0,132.64,83.36
+ORD-0224,2026-06-12,Liam Davis,liam.davis3@example.com,North,Electronics,USB-C Hub,Website,Bank Transfer,6,134.07,93.23,804.42,559.38,245.04
+ORD-0225,2026-04-23,Emma Wilson,emma.wilson4@example.com,North,Home & Kitchen,Desk Lamp,Marketplace,PayPal,2,128.53,92.89,257.06,185.78,71.28
+ORD-0226,2026-04-06,Sofia Davis,sofia.davis5@example.com,West,Sports & Outdoors,Yoga Mat,Marketplace,Bank Transfer,6,143.22,87.34,859.32,524.04,335.28
+ORD-0227,2026-01-25,Liam Davis,liam.davis6@example.com,South,Sports & Outdoors,Resistance Bands,Marketplace,PayPal,3,95.05,61.6,285.15,184.8,100.35
+ORD-0228,2026-02-10,Ava Davis,ava.davis7@example.com,North,Electronics,Wireless Mouse,Website,Card,6,14.85,9.1,89.1,54.6,34.5
+ORD-0229,2026-02-12,Sofia Wilson,sofia.wilson8@example.com,North,Office Supplies,Ergonomic Stand,Marketplace,Card,3,95.89,67.48,287.67,202.44,85.23
+ORD-0230,2026-05-06,Emma Brown,emma.brown9@example.com,North,Sports & Outdoors,Yoga Mat,Marketplace,PayPal,4,63.35,42.41,253.4,169.64,83.76
+ORD-0231,2026-06-27,Ava Smith,ava.smith10@example.com,South,Electronics,USB-C Hub,Website,PayPal,5,96.38,53.06,481.9,265.3,216.6
+ORD-0232,2026-01-25,Emma Wilson,emma.wilson11@example.com,East,Electronics,Wireless Mouse,Mobile App,PayPal,4,49.11,31.83,196.44,127.32,69.12
+ORD-0233,2026-03-17,Liam Brown,liam.brown12@example.com,East,Office Supplies,Ergonomic Stand,Website,Card,5,99.11,64.3,495.55,321.5,174.05
+ORD-0234,2026-06-11,Ava Wilson,ava.wilson13@example.com,South,Office Supplies,Marker Pack,Mobile App,Bank Transfer,1,52.71,36.86,52.71,36.86,15.85
+ORD-0235,2026-02-27,Ava Wilson,ava.wilson14@example.com,West,Office Supplies,Ergonomic Stand,Marketplace,Bank Transfer,5,90.84,52.47,454.2,262.35,191.85
+ORD-0236,2026-06-26,Ava Taylor,ava.taylor15@example.com,North,Sports & Outdoors,Resistance Bands,Marketplace,Bank Transfer,2,115.56,85.1,231.12,170.2,60.92
+ORD-0237,2026-03-11,Liam Smith,liam.smith16@example.com,East,Electronics,Wireless Mouse,Marketplace,Bank Transfer,6,136.06,90.06,816.36,540.36,276.0
+ORD-0238,2026-04-09,Emma Clark,emma.clark0@example.com,South,Sports & Outdoors,Resistance Bands,Marketplace,Card,5,27.29,19.32,136.45,96.6,39.85
+ORD-0239,2026-01-24,Sofia Taylor,sofia.taylor1@example.com,West,Sports & Outdoors,Water Bottle,Marketplace,Card,6,65.07,48.58,390.42,291.48,98.94
+ORD-0240,2026-03-09,Emma Davis,emma.davis2@example.com,West,Sports & Outdoors,Water Bottle,Website,Bank Transfer,6,87.67,46.87,526.02,281.22,244.8

@@ -3,6 +3,8 @@ import pandas as pd
 
 from src.clean_data import (
     calculate_financials,
+    convert_order_dates,
+    convert_quantities_to_integer,
     load_data,
     normalize_customer_names,
     normalize_region_and_category,
@@ -125,3 +127,33 @@ def test_normalize_region_and_category():
 
     assert result["Region"].tolist() == ["North", "South"]
     assert result["Category"].tolist() == ["Electronics", "Clothing"]
+
+
+def test_convert_order_dates():
+    input_data = pd.DataFrame(
+        {
+            "Order Date": [
+                "2026-08-10",
+                "invalid-date",
+            ]
+        }
+    )
+
+    result, invalid_date_count = convert_order_dates(input_data)
+
+    assert result.loc[0, "Order Date"] == pd.Timestamp("2026-08-10")
+    assert pd.isna(result.loc[1, "Order Date"])
+    assert invalid_date_count == 1
+
+
+def test_convert_quantities_to_integer():
+    valid_data = pd.DataFrame({"Quantity": [1.0, 2.0]})
+    invalid_data = pd.DataFrame({"Quantity": [3.5]})
+
+    result, non_integer_count = convert_quantities_to_integer(valid_data)
+    _, invalid_count = convert_quantities_to_integer(invalid_data)
+
+    assert result["Quantity"].tolist() == [1, 2]
+    assert result["Quantity"].dtype == "int64"
+    assert non_integer_count == 0
+    assert invalid_count == 1
