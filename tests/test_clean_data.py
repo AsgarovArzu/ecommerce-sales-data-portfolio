@@ -4,6 +4,7 @@ import pandas as pd
 from src.clean_data import (
     calculate_financials,
     load_data,
+    normalize_customer_names,
     normalize_emails,
     reject_missing_quantities,
     remove_exact_duplicates,
@@ -85,6 +86,27 @@ def test_normalize_emails():
     assert result["Email"].tolist() == [
         "arzu@example.com",
         "user@example.com",
+        None,
+    ]
+    assert changed_count == 1
+
+
+def test_normalize_customer_names():
+    input_data = pd.DataFrame(
+        {
+            "Customer Name": [
+                "  aRZu asGarov  ",
+                "John Smith",
+                None,
+            ]
+        }
+    )
+
+    result, changed_count = normalize_customer_names(input_data)
+
+    assert result["Customer Name"].tolist() == [
+        "Arzu Asgarov",
+        "John Smith",
         None,
     ]
     assert changed_count == 1

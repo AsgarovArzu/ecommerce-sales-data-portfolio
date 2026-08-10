@@ -38,6 +38,19 @@ def normalize_emails(data):
     return result, changed_count
 
 
+def normalize_customer_names(data):
+    result = data.copy()
+
+    changed_count = (
+        result["Customer Name"].notna()
+        & (result["Customer Name"] != result["Customer Name"].str.strip().str.title())
+    ).sum()
+
+    result["Customer Name"] = result["Customer Name"].str.strip().str.title()
+
+    return result, changed_count
+
+
 def calculate_financials(data):
     result = data.copy()
 
@@ -79,15 +92,7 @@ def main():
     non_integer_quantities = (clean_df["Quantity"] % 1 != 0).sum()
     clean_df["Quantity"] = clean_df["Quantity"].astype("int64")
 
-    customer_name_needs_cleaning = (
-        clean_df["Customer Name"].notna()
-        & (
-            clean_df["Customer Name"]
-            != clean_df["Customer Name"].str.strip().str.title()
-        )
-    ).sum()
-
-    clean_df["Customer Name"] = clean_df["Customer Name"].str.strip().str.title()
+    clean_df, customer_name_needs_cleaning = normalize_customer_names(clean_df)
 
     remaining_customer_name_issues = (
         clean_df["Customer Name"].notna()
