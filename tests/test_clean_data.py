@@ -111,3 +111,17 @@ def test_normalize_customer_names():
         None,
     ]
     assert changed_count == 1
+
+
+def test_normalize_region_and_category():
+    input_data = pd.DataFrame(
+        {
+            "Region": ["  nORTH  ", "south"],
+            "Category": ["  Electronics  ", "Clothing"],
+        }
+    )
+
+    result = normalize_region_and_category(input_data)
+
+    assert result["Region"].tolist() == ["North", "South"]
+    assert result["Category"].tolist() == ["Electronics", "Clothing"]
